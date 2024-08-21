@@ -41,7 +41,7 @@ h1{
 }
 .font{
     margin: 0px;
-    color: #df9100;
+    color: #df6400;
     font-size: 50px;
 }
 .font2{
@@ -52,7 +52,7 @@ section > h3{
     font-size: 12px;
 }
 .div1{
-    background-color: #e49400;
+    background-color: #df6400;
     height: 310px;
     display: flex;
     align-items: center;
@@ -104,9 +104,49 @@ a:hover{
     text-decoration: none;
 }
 .h3City:hover{
-    color: #0044ff;
+    color: #d400ff;
     transition: ease-in-out;
     letter-spacing: 0.10em;
     transition-duration: 0.2s;
     transform: scale(1.1);
+}
+footer{
+    font-family: Verdana, sans-serif;
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.h3insta{
+    color:#00002b;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    padding-bottom: 0px;
+}
+footer h3{
+    color: #df6400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 750px;
+    margin: 0px;
+    font-size: 30px;
+    padding-top:0px;
+
+}
+.h3insta:hover{
+    color: #d400ff;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    transform: scale(1.05);
+}
+.Ainsta{
+    display: flex;
+    height: 50px;
+
 }
