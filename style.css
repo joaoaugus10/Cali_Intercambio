@@ -1,0 +1,112 @@
+*{
+    color: aliceblue;
+    font-family: Verdana, sans-serif;
+}
+nav > h1{
+    text-align: center;
+}
+nav{
+    background-color: #00000f;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+header{
+    display: flex;
+    height: 500px;
+    background-image: url(Buenos_Aires3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    height: 100%;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+section{
+    font-size: large;
+    height: 210px;
+    width: 250px;
+    align-items: center;
+    padding-left: 290px;
+    padding-top: 60px;
+}
+h1{
+    display: flex;
+    margin: 0px;
+    height: 50px;
+    justify-content: center;
+}
+.font{
+    margin: 0px;
+    color: #df9100;
+    font-size: 50px;
+}
+.font2{
+    margin-bottom: 0px;
+}
+section > h3{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.div1{
+    background-color: #e49400;
+    height: 310px;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+main{
+    height: 700px;
+    
+}
+pre{
+    margin: 0px;
+    font-size: 25px;
+}
+div > h2{
+    font-size: 40px;
+}
+main > h2{
+    color: #00002b;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+}
+.h3City{
+    color:#00002b;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    width: 500px
+}
+.fotos{
+    height: 200px;
+    width: 390px;
+    border-radius: 10px;
+}
+.divBA{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: center;
+    padding-top: 50px;
+}
+    
+a:hover{
+    transform: scale(1.1);
+    transition: ease-out;
+    transition-duration: 0.2s;
+}
+.anchor{
+    text-decoration: none;
+}
+.h3City:hover{
+    color: #0044ff;
+    transition: ease-in-out;
+    letter-spacing: 0.10em;
+    transition-duration: 0.2s;
+    transform: scale(1.1);
+}
